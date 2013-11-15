@@ -1,5 +1,5 @@
-Ejercicios-Tema3
-================
+Ejercicios-Tema3-IV
+===================
 
 Virtualización ligera usando contenedores
 =========================================
@@ -32,5 +32,10 @@ Ahora listamos los interfaces puentes creados desde otra terminal:
 
 ![imagen](https://dl.dropbox.com/s/b2rna9i2b7d5i3w/interfaces_puente.png)
 
-Comprobamos que tenemos dos, los crados hasta ahora una-caja y nubecilla. Este último se encuentra *corriendo*.
-En cuanto a los interfaces puentes creados decir que se han creado dos:
+Comprobamos que tenemos dos contenedores, los crados hasta ahora, que son: una-caja y nubecilla. Este último se 
+encuentra *corriendo*. En cuanto a los interfaces de red creados decir que se ha creado un puente llamado lxcrb0.
+Cuando el contenedor no está corriendo, el puente lxcrb0 no tiene asociado un interfaz. Cuando lanzamos el contenedor
+observamos que aparece el prefijo *veth*  asociado al puente *lxcrb0*. Esta diferencia la podemos ver haciendo uso 
+del comando *ip addr show*.
+
+
