@@ -45,4 +45,6 @@ Ahora vamos a seleccionar el contenedor *mycontainer* y lo vamos a arrancar puls
 
 ![imagen](https://dl.dropbox.com/s/ccr888pc0qkehqk/mycontainerWebPanel.png)
 
-Aquí vemos como podemos arranxar
+Aquí vemos como podemos modificar atributos como memoria, memoria + intercambio, CPU que usa, etc, etc:
+
+![imagen](https://dl.dropbox.com/s/g87r3dld74b8sdq/modificandoMycontainerWebPanel.png)
