@@ -33,5 +33,16 @@ wget http://lxc-webpanel.github.io/tools/install.sh -O - | bash
 ![imagen](https://dl.dropbox.com/s/vwn2iucby6694rb/instalando%20lxc%20web%20panel.png)
 
 Para usarlo nos vamos al navegador e introduciomos:http://localhost:5000/ con contraseña "admin" y password "admin":
-Aqui unas capturas con la información que nos proporciona y que podemos modificar, por ejemplo arrancar un contenedor
-desde WebPanel:
+
+![imagen](https://dl.dropbox.com/s/erb8r2k7fwt3sum/usandoLXCWebPanel.png)
+
+Aquí unas capturas con la información que nos proporciona de nuestro equipo, con la lista de contenedores que
+tenemos actualmente:
+
+![imagen](https://dl.dropbox.com/s/8aa409tn1m4t5cl/LXCWPanel1.png)
+
+Ahora vamos a seleccionar el contenedor *mycontainer* y lo vamos a arrancar pulsando start dentro de WebPanel:
+
+![imagen](https://dl.dropbox.com/s/ccr888pc0qkehqk/mycontainerWebPanel.png)
+
+Aquí vemos como podemos arranxar
