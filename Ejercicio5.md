@@ -24,7 +24,7 @@ Instalamos nginx y ab:
 
 Ejecutamos la orden ab, esto es 10000 peticiones con una concurrencia de 100
 
-ab -n 10000 -c 100 ip_contenedor
+    ab -n 10000 -c 100 ip_contenedor
 
 La ip la podemos establecer entrando en nuestro contenedor desde lxcWebPanel.
 
