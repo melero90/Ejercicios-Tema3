@@ -38,5 +38,14 @@ Ejecutamos nginx y volvemos a ejecutar la orden ab con los mismos parametros que
 
     ab -n 10000 -c 100 http://localhost/
 
+####Ejercicio6
 
+
+####Ejercicio7
+
+
+####Ejercicio8
+
+
+####Ejercicio9
 
